@@ -1,0 +1,33 @@
+form textarea {
+  resize: none;
+
+  height: 105px;
+  width: 400px;
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  background-color: #fff;
+  padding: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.377);
+}
+
+form input[type="radio"] {
+  margin: 10px 0;
+}
+
+form input[type="radio"]:not(:first-child) {
+  margin-left: 15px;
+}
+
+.status {
+  margin-bottom: 1em;
+}
+
+.status label {
+  margin-left: 5px;
+  font-size: 1em;
+}
+
+.status-label {
+  margin: 0.5em 0 0 0;
+}

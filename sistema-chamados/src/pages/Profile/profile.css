@@ -1,0 +1,94 @@
+.container {
+  background-color: #f8f8f8;
+  border-radius: 4px;
+  padding: 2em;
+  margin-bottom: 1em;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.label-avatar {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.label-avatar input {
+  display: none;
+}
+
+.label-avatar span {
+  z-index: 99;
+  position: absolute;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+.label-avatar:hover span {
+  transform: scale(1.5);
+  opacity: 1;
+}
+
+.form-profile {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-profile img {
+  margin-bottom: 1em;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.form-profile label {
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+.form-profile .input,
+.form-profile select {
+  height: 45px;
+  width: 400px;
+  border: 0;
+  border-radius: 4px;
+  margin-bottom: 1em;
+  background-color: #fff;
+  padding: 12px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-profile .input:disabled,
+.form-profile select:disabled {
+  cursor: not-allowed;
+}
+
+.form-profile button {
+  height: 35px;
+  width: 400px;
+  background-color: #181c2e;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+
+.logout-btn {
+  height: 33px;
+  width: 400px;
+  border: solid 1px #910000;
+  border-radius: 5px;
+  color: #910000;
+  font-size: 14px;
+  transition: background-color 0.5s;
+}
+
+.logout-btn:hover {
+  background-color: #910000;
+  color: #fff;
+}
